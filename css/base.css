@@ -10,7 +10,7 @@ body{
 }
 
 .upper{
-
+    margin-bottom: 100px;
 }
 .writtings{
 	display: flex;
@@ -36,4 +36,13 @@ body{
 	margin: 0 20px;
 	line-height: .7;
     font-size: 12.4vw;
+}
+
+.content{
+	display: flex;
+	justify-content: space-around;
+}
+
+.item:nth-child(odd){
+	padding-top: 10vh;
 }
