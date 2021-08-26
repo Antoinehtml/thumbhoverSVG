@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #e4e4e4;
+	font-family: 'Playfair Display', serif;
+}
+
+.upper{
+
+}
+.writtings{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 37vw;
+    margin-top: 20px;
+
+}
+
+.writtings h1{
+	font-size: 1.3em;
+    font-weight: 100;	
+}
+
+.writtings nav a{
+	text-decoration: none;
+	color: #b74946;
+	margin-right: 20px;
+}
+
+.title{
+	margin: 0 20px;
+	line-height: .7;
+    font-size: 12.4vw;
+}
