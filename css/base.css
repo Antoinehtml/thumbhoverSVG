@@ -7,23 +7,62 @@
 body{
 	background-color: #e4e4e4;
 	font-family: 'Playfair Display', serif;
+	overflow: hidden;
 }
+
+
+/* CURSOR DESIGN AND ANIMATION */
+svg{
+	width: 60px;
+	position: absolute;
+	animation: rotation 5s infinite linear;
+	pointer-events: none;
+	transition: top .3s, left .3s;
+	transition-timing-function: ease-out;
+}
+
+@keyframes rotation{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(-359deg);
+	}
+}
+
+text{
+	font-size: 4em;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	fill: #b74946;
+}
+
+/* END OF CURSOR DESIGN AND ANIMATION */
 
 .upper{
     margin-bottom: 100px;
 }
+
+.links a:hover{
+	color: black;
+}
+
 .writtings{
 	display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 37vw;
     margin-top: 20px;
-
+    position: relative;
 }
 
 .writtings h1{
 	font-size: 1.3em;
     font-weight: 100;	
+}
+
+.writtings h1:hover{
+	color: #b74946;
 }
 
 .writtings nav a{

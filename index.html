@@ -12,21 +12,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+	<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+	    <defs>
+	    	<path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)"/>
+	    </defs>
+	    <rect width="100%" height="100%" fill="none" />
+	    <text>
+	        <textPath xlink:href="#textcircle"  textLength="942">VIEW THE EXPERIENCE.</textPath>
+	    </text>
+	</svg>
 	<main>
 		<div class="upper">
 			<div class="writtings">
 				<h1 class="pagetitle">Welcome to my Page</h1>
 				<nav class="links">
-					<a href="">Previous Experience</a>
-					<a href="">Linkedin</a>
-					<a href="">GitHub</a>
+					<a href="https://www.linkedin.com/in/coulon-antoine/" target="_blank">Previous Experiences</a>
+					<a href="https://www.linkedin.com/in/coulon-antoine/" target="_blank">Linkedin</a>
+					<a href="https://www.instagram.com/antoinehtml/" target="_blank">GitHub</a>
 				</nav>
 			</div>
 			<div class="title">
 				<h2 class="title">Antoine Coulon</h2>	
 			</div>
 		</div>
-
 		<div class="content">
 			<div class="item">
 				<figure class="thumb">
@@ -86,5 +95,6 @@
 		</div>
 	</main>
 	
+<script src="./js/cursor.js"></script>	
 </body>
 </html>
